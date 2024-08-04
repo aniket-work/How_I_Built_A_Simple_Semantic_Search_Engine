@@ -68,7 +68,7 @@ Increase overall productivity and efficiency
 
    ```bash 
    # generate synthetic cases of our Law Firm
-   python main.py
+   python app.py
     ```
    
 
