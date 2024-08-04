@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Results - Modern Search Engine</title>
+    <title>AI Powered Semantic Search</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1><a href="{{ url_for('home') }}">Modern Search</a></h1>
+            <h1><a href="{{ url_for('home') }}">AI Powered Semantic Search Engine</a></h1>
             <form id="search-form" action="{{ url_for('api.search') }}" method="post">
                 <div class="search-box">
                     <input type="text" name="query" id="search-input" placeholder="What are you looking for?" required value="{{ request.form['query'] }}">
