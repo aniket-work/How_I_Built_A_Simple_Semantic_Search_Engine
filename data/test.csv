@@ -1,0 +1,10 @@
+query,search_date,result_rank,url,page_title,snippet,relevance_score
+"artificial intelligence",2024-08-01,1,https://www.example.com/ai-overview,Overview of Artificial Intelligence,"Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems.",0.98
+"artificial intelligence",2024-08-01,2,https://www.example.com/ai-history,History of Artificial Intelligence,"The history of AI dates back to ancient times with myths of intelligent robots and mechanical beings.",0.92
+"artificial intelligence",2024-08-01,3,https://www.example.com/ai-future,Future of Artificial Intelligence,"AI is expected to revolutionize various industries with advancements in machine learning, robotics, and more.",0.89
+"machine learning",2024-08-02,1,https://www.example.com/ml-basics,Basics of Machine Learning,"Machine learning is a subset of AI that involves the use of data and algorithms to imitate the way that humans learn.",0.97
+"machine learning",2024-08-02,2,https://www.example.com/ml-algorithms,Common Machine Learning Algorithms,"There are several common algorithms in machine learning, including linear regression, decision trees, and neural networks.",0.93
+"machine learning",2024-08-02,3,https://www.example.com/ml-applications,Applications of Machine Learning,"Machine learning is used in various applications, such as fraud detection, recommendation systems, and autonomous vehicles.",0.91
+"natural language processing",2024-08-03,1,https://www.example.com/nlp-intro,Introduction to Natural Language Processing,"Natural Language Processing (NLP) is a field of AI focused on the interaction between computers and humans through natural language.",0.96
+"natural language processing",2024-08-03,2,https://www.example.com/nlp-techniques,Techniques in Natural Language Processing,"NLP techniques include tokenization, stemming, lemmatization, and part-of-speech tagging.",0.94
+"natural language processing",2024-08-03,3,https://www.example.com/nlp-applications,Applications of NLP,"NLP is used in applications such as chatbots, sentiment analysis, and language translation.",0.90

@@ -1,0 +1,19 @@
+{
+    "data": {
+        "csv_path": "data/test.csv",
+        "subset_size": 1000
+    },
+    "model": {
+        "name": "model/all-MiniLM-L6-v2",
+        "dense_vectors_file": "dense_vectors.pkl",
+        "faiss_index_file": "faiss_index.index"
+    },
+    "search": {
+        "top_k": 5
+    },
+    "flask": {
+        "debug": true,
+        "host": "0.0.0.0",
+        "port": 5000
+    }
+}
