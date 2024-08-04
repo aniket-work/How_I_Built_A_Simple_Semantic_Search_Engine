@@ -1,34 +1,32 @@
-// static/js/script.js
-
 document.addEventListener('DOMContentLoaded', (event) => {
-    // Add any initialization code here
+    const searchForm = document.getElementById('search-form');
+    const searchInput = document.getElementById('search-input');
 
-    // Example: Add event listener for search form submission
-    const searchForm = document.querySelector('form');
     if (searchForm) {
         searchForm.addEventListener('submit', (e) => {
-            const searchInput = document.querySelector('input[name="query"]');
             if (searchInput.value.trim() === '') {
                 e.preventDefault();
-                alert('Please enter a search query');
+                searchInput.classList.add('error');
+                setTimeout(() => {
+                    searchInput.classList.remove('error');
+                }, 300);
             }
         });
     }
 
-    // Example: Add keyboard shortcut to focus search input
-    document.addEventListener('keydown', (e) => {
-        if (e.key === '/' && document.activeElement.tagName !== 'INPUT') {
-            e.preventDefault();
-            const searchInput = document.querySelector('input[name="query"]');
-            if (searchInput) {
-                searchInput.focus();
-            }
-        }
-    });
+    if (searchInput) {
+        searchInput.addEventListener('focus', () => {
+            searchForm.classList.add('focused');
+        });
 
-    // You could add more interactive features here, such as:
-    // - AJAX search requests
-    // - Infinite scrolling for results
-    // - Search suggestions as you type
-    // - Ability to save or share search results
+        searchInput.addEventListener('blur', () => {
+            searchForm.classList.remove('focused');
+        });
+    }
+
+    // Add a subtle animation to search results
+    const results = document.querySelectorAll('.results li');
+    results.forEach((result, index) => {
+        result.style.animationDelay = `${index * 0.1}s`;
+    });
 });
