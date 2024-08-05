@@ -49,8 +49,7 @@ This knowledge could inspire you to implement similar solutions in your own proj
    - Navigate to your project directory and install required packages using `pip`:
    
      ```bash
-     pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-     
+        
      cd path/to/your/project
      pip install -r requirements.txt
      ```
