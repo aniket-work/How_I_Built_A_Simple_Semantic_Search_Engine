@@ -3,24 +3,17 @@ Build AI-Powered Legal Case Discovery for Attorneys from Scratch
 
 ## Introduction
 
-Though we focus on the 'Law Firm' use case, the approach and design discussed in this article can be leveraged for any real-world business use case.
-
-Our Use Case : A law firm handles thousands of cases simultaneously and needs to quickly retrieve relevant case files, previous court rulings, and client correspondence. 
-What This Project Provides : Lawyers and paralegals can search using terms that may be vague or not exact, but related to ongoing cases, to prepare for court appearances, client meetings, and legal filings. This app provides all relevant files without needing exact keyword matches and without requiring any LLM setup or external API usage.
-
+Ever wondered how companies like Google or Amazon make their search engines so smart? Well, I've been tinkering with something similar, and I'm excited to share my journey with you. In this article, I'll walk you through how I built a powerful search engine using artificial intelligence. Don't worry if you're not a tech wizard - I'll keep things simple and fun!
 
 ## What's This Project About?
 
-This article is about the development of an AI-powered legal case discovery system. It showcases how a fictional law firm is leveraging artificial intelligence to revolutionize their legal research process. The system consists of two main components: a document indexer (employee_goals.py) that processes and indexes legal documents, and a user-friendly search interface (Case_Discovery.py) that allows lawyers to quickly find relevant cases based on their queries. 
-The article also covers the creation of a sample dataset (cases_generator.py) to demonstrate the system's capabilities. This comprehensive approach illustrates how AI can be integrated into legal practices to enhance efficiency and accuracy in case research.
+This article is all about creating a smart search engine from scratch. I'll show you how I used various AI techniques to make a search engine that doesn't just look for exact word matches, but actually understands the meaning behind your searches. 
+We'll explore how I set up the backend system to process and index data, how I created a user-friendly web interface, and how I made sure the whole thing runs smoothly and quickly. You'll get a behind-the-scenes look at the tools and technologies I used, from machine learning models that understand language to databases that can search through millions of items in a split second.
 
 ## Why Use This Project?
 
-This article is crucial for understanding the growing importance of AI in today's business landscape. It provides a practical example of how AI can be implemented to solve real-world challenges. The fictional law firm's approach demonstrates how businesses can:
-Streamline time-consuming processes like legal research
-Improve accuracy in finding relevant information
-Enhance decision-making by providing quick access to pertinent cases
-Increase overall productivity and efficiency
+Companies that know how to leverage AI are racing ahead of their competitors. This article shows you, through the lens of a fictional company, how AI can be applied to create a powerful search tool. Whether you're a business owner, a tech enthusiast, or just curious about AI, understanding how these systems work can give you valuable insights. You'll see how AI can improve user experience, handle large amounts of data efficiently, and provide more accurate results. 
+This knowledge could inspire you to implement similar solutions in your own projects or business, potentially revolutionizing how you handle information and serve your customers.
 
 ## Architecture
 ![Design Diagram](docs/design.png)
