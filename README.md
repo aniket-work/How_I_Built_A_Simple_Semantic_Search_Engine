@@ -3,6 +3,8 @@ Build AI-Powered Legal Case Discovery for Attorneys from Scratch
 
 ## Introduction
 
+Full Article : https://medium.com/@learn-simplified/how-i-built-a-simple-semantic-search-engine-all-ai-all-local-68c4db4f6986
+
 Ever wondered how companies like Google or Amazon make their search engines so smart? Well, I've been tinkering with something similar, and I'm excited to share my journey with you. In this article, I'll walk you through how I built a powerful search engine using artificial intelligence. Don't worry if you're not a tech wizard - I'll keep things simple and fun!
 
 ## What's This Project About?
