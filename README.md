@@ -16,7 +16,7 @@ Companies that know how to leverage AI are racing ahead of their competitors. Th
 This knowledge could inspire you to implement similar solutions in your own projects or business, potentially revolutionizing how you handle information and serve your customers.
 
 ## Architecture
-![Design Diagram](docs/design.png)
+![Design Diagram](design_docs/design.png)
 
 
 # Tutorial: Setting Up and Running an AI-Powered Legal Case Discovery Application
